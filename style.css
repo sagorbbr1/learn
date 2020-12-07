@@ -1,0 +1,169 @@
+body {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.hr-style {
+  border: 5px dotted #302525;
+  border-bottom: none;
+  width: 50px;
+}
+.full {
+  background-image: linear-gradient(rgba(177, 137, 6, 0.5), rgba(177, 137, 6, 0.5)), url('img/study.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.nav-link {
+  background-color: #f192035b;
+  transition: 0.3s;
+}
+.nav-link:hover {
+  background-color: #c4860093;
+  transform: scale(1.1);
+}
+.logo-img {
+  margin-top: 30px;;
+}
+h1 {
+  color: #f5f5f5;
+  font-size: 70px;
+  font-weight: 600;
+  margin-top: 6rem;
+  text-shadow: 6px 5px #000;
+  display: inline-block;
+  font-style: italic;
+}
+.button {
+  margin-left: 10.625rem;
+}
+
+/* Feature section */
+#features {
+  background-color: #f8ca93;
+  padding: 5% 10%;
+}
+
+.features-item {
+  border: 1px solid #c98737;
+  padding: 10px 6px;
+  background-color: #c4ae94;
+  transition: .3s;
+  margin: 20px 0;
+}
+.features-item:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 4px #302525;
+}
+.icon-feature {
+  background-color: #f0b55e;
+  color: #fff;
+  padding: 10px;
+}
+
+
+/* About Me */
+
+#my-info {
+  background-color: #c9a173;
+  padding: 4% 10%;
+}
+.span-all span {
+  font-weight: 700 !important;
+}
+.span-all p {
+  font-size: .9rem;
+}
+.info-icon {
+  background-color: #966833;
+  padding: 8px;
+  color: #c4ae94;
+}
+
+/* education */
+
+.education {
+  padding: 4% 10%;
+}
+.all-skill {
+  padding: 4% 10%;
+
+}
+/* Tutorial */
+
+#tutorial {
+  background-color: #ccaa84;
+  padding: 4% 10%;
+}
+.card-h2 {
+  font-size: 18px;
+  text-align: center;
+}
+.card-body a {
+  color: #d36161;
+  display: block;
+  text-align: center;
+}
+.card {
+  transition: .3s;
+}
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 4px 4px 5px #302525;
+}
+
+
+    /* Feedback */
+
+    #feedback {
+      background-color: #db9948;
+    }
+
+    /* feedback */
+
+    .vill-img {
+      width: 400px;
+      height: 400px;
+      margin-bottom: 20px;
+    }
+    .carousel-item {
+      text-align: center;
+      padding: 5% 15%;
+
+    }
+
+
+  /* Contact */
+
+  #contact {
+    background-color: #e0b17b;
+    padding: 4% 10%;
+  }
+  .bold {
+    font-weight: 700;
+  }
+
+  /* Fotter */
+
+  footer {
+    background-color: #473622;
+    padding: 2% 5%;
+  }
+   footer a {
+     color: #fff;
+     transition: 1s;
+   }
+   footer a i:hover {
+    color: rgb(245, 208, 208);
+    transform: scale(1.1);
+  }
+
+
+  /* Media Quary */
+
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 50px;
+    }
+  }
